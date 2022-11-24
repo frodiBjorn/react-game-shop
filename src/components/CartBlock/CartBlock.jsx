@@ -15,7 +15,7 @@ export const CartBlock = () => {
 
     const hadleClick = useCallback(() => {
         setIsCartMenuVisible(false);
-        navigate("/order");
+        navigate("/react-game-shop/order");
     },[navigate]);
     return (
         <div className="cart-block">

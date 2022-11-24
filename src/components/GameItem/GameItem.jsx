@@ -12,7 +12,7 @@ export const GameItem = ({ game }) => {
     const dispatch = useDispatch();
     const handleClick = () => {
         dispatch(setCurrentGame(game));
-        navigate(`/app/${game.title}`);
+        navigate(`/react-game-shop/app/${game.title}`);
     };
     return (
         <div className="game-item" onClick={handleClick}>
