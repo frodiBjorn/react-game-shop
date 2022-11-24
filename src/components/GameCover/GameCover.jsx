@@ -5,7 +5,7 @@ export const GameCover = ({ image = "" }) => {
     return (
         <div
             className="game-cover"
-            style={{ backgroundImage: `url(${image})` }}
+            style={{ backgroundImage: `url(/react-game-shop/${image})` }}
         ></div>
     );
 };
