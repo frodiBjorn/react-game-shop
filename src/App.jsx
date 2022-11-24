@@ -14,9 +14,9 @@ function App() {
                 <div className="App">
                     <Header />
                     <Routes>
-                        <Route exact path="/" element={<HomePage />} />
-                        <Route exact path="/app/:title" element={<GamePage />} />
-                        <Route exact path="/order" element={<OrderPage />} />
+                        <Route exact path="/react-game-shop" element={<HomePage />} />
+                        <Route exact path="/react-game-shop/app/:title" element={<GamePage />} />
+                        <Route exact path="/react-game-shop/order" element={<OrderPage />} />
                     </Routes>
                 </div>
             </Router>
